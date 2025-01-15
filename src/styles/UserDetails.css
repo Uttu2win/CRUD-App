@@ -1,0 +1,80 @@
+.user-details {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .user-details h2 {
+    margin-bottom: 2rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .details-container {
+    margin-bottom: 2rem;
+  }
+  
+  .detail-row {
+    display: flex;
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .detail-row:last-child {
+    border-bottom: none;
+  }
+  
+  .label {
+    flex: 0 0 120px;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .value {
+    flex: 1;
+    color: #333;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .edit-button, .back-button {
+    flex: 1;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-button {
+    background-color: #ffc107;
+    color: #000;
+  }
+  
+  .back-button {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #e0a800;
+  }
+  
+  .back-button:hover {
+    background-color: #5a6268;
+  }
+  
+  .not-found {
+    text-align: center;
+    color: #dc3545;
+    font-size: 1.2rem;
+    margin: 2rem 0;
+  }
+  
